@@ -25,21 +25,19 @@ $(window).on('load', function() {
 
 
   // TODO: Add code to apply the past, present, or future class to each time
-  // block by comparing the id to the current hour.
+  // block by comparing the id to the current hour. 👍
   // HINTS: How can the id attribute of each time-block be used to conditionally 
   // add or remove the past, present, and future classes? 
   // How can Day.js be used to get the current hour in 24-hour time? 👍
   let currentHour = dayjs().hour();
   const container = document.getElementById("container");
-  console.log(currentHour);
 
   for (let i = 0; i < 9; i++) {
-    console.log("i = " + i);
     let hour = container.children[i].id.split('-')[1];
-    console.log(hour);
-    if (hour === String(currentHour)) {
+    if (parseInt(hour) === currentHour) {
       container.children[i].classList = 'row time-block present';
-      console.log("true");
+    } else if (parseInt(hour) > currentHour) {
+      container.children[i].classList = 'row time-block future';
     }
   }
 
