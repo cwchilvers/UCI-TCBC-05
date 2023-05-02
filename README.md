@@ -5,5 +5,5 @@ The following web app is a work day scheduler. Each hour has a row with an input
 ## Screenshots
 ![Screenshot 2023-05-02 143929](https://user-images.githubusercontent.com/59628271/235568070-bbf085a5-3c52-4271-b1bd-55aa04b1ce2c.png)
 
-## Website Location
-[Deployed Web App](https://cwchilvers.github.io/UCI-CBC-05-WorkDayScheduler/)
+## Deployed Web App
+[Work Day Scheduler](https://cwchilvers.github.io/UCI-CBC-05-WorkDayScheduler/)
