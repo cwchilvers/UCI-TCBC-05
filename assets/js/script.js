@@ -4,6 +4,7 @@ $(window).on('load', function() {
     let saveButton = document.getElementsByClassName("btn saveBtn col-2 col-md-1")[i];
     saveButton.addEventListener("click", function() {
       localStorage.setItem(saveButton.parentElement.id, saveButton.parentElement.children[1].value);
+      $('#message').text("Appointment added to local storage ✔️");
   });}
 
   // Change colors of rows based on time of day

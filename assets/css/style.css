@@ -13,6 +13,10 @@ textarea {
   padding: 10px;
 }
 
+#message {
+  margin-bottom: -50px;
+}
+
 .description {
   white-space: pre-wrap;
 }
