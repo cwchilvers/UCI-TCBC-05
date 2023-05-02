@@ -1,6 +1,3 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html. 👍
 $(window).on('load', function() {
   // Save user input locally
   for (let i = 0; i < 9; i++) {
@@ -9,7 +6,7 @@ $(window).on('load', function() {
       localStorage.setItem(saveButton.parentElement.id, saveButton.parentElement.children[1].value);
   });}
 
-  // Changes colors of rows based on time of day
+  // Change colors of rows based on time of day
   let currentHour = dayjs().hour();
   const container = document.getElementById("container");
 
@@ -22,9 +19,10 @@ $(window).on('load', function() {
     }
   }
 
-  // ❌ TODO: Add code to get any user input that was saved in localStorage and set
-  // the values of the corresponding textarea elements. HINT: How can the id
-  // attribute of each time-block be used to do this?
+  // Update each row with user's saved data
+  for (let i = 0; i < 9; i++) {
+    container.children[i].children[1].value = localStorage.getItem("hour-" + String(i+9));
+  }
 
   // Displays current date at top of page
   let today = dayjs();
