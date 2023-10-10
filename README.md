@@ -22,6 +22,8 @@
 ## Description
 This is a simple work day scheduler. The user can enter events for each hour of the work day. The current hour is highlighted in red, past hours are highlighted in gray, and future hours are highlighted in green. The user can save the events for each hour by clicking the save button. The events are saved to local storage, so they will persist when the page is refreshed.
 
+[Original Starter Code](https://github.com/coding-boot-camp/crispy-octo-meme.git)
+
 ## Usage
 To use this web application, either access the web app [here](https://example.com) or clone the repository locally and open the `index.html` file in your browser. To save events, enter the event in the text area for the corresponding hour and click the save button.
 
