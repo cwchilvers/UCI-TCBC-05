@@ -15,7 +15,7 @@
 2. [Screenshot](#screenshot)
 3. [Technologies Used](#technologies-used)
 4. [Usage](#usage)
-5. [Deployment](#deployment)
+5. [Installation](#installation)
 6. [Credits](#credits)
 7. [Contact Information](#contact-information)
 
@@ -31,10 +31,10 @@ This is a simple work day scheduler. The user can enter events for each hour of 
 * [jQuery](https://jquery.com/)
 
 ## Usage
-To use this web application, either access the web app [here](https://example.com) or clone the repository locally and open the `index.html` file in your browser. To save events, enter the event in the text area for the corresponding hour and click the save button.
-
-## Deployment
 The deployed version can be accessed at [uci-tcbc-05.cwchilvers.io](https://uci-tcbc-05.cwchilvers.io).
+
+## Installation
+Clone the repository locally and open the `index.html` file in your browser.
 
 ## Credits
 * [Original Starter Code](https://github.com/coding-boot-camp/crispy-octo-meme.git)
